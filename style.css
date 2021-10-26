@@ -1,3 +1,45 @@
-ul.a{
-    padding-left: 50px;
+body{
+  width: 100%;
+}
+.topsection{
+  background-color: cyan;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  height: 200px;
+  width: 100%;
+}
+.bottomsection{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 300px;
+  width: 100%;
+
+  
+}
+section{
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-top: 15px;
+}
+@media (max-width:576px) {
+.mainsection{
+  width: 100%;
+}
+  .topsection{
+    width: 100%;
+background-color: skyblue;
+}
+.bottomsection{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: white;
+  color: black;
+  text-align:center;
+
+}
 }
